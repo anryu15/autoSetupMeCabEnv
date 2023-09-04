@@ -7,4 +7,9 @@ code .
 
 ## 2.
 
+change compose.yml 
+container_name
+
+## 3.
+
 reopen
