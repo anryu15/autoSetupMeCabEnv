@@ -1,0 +1,20 @@
+{   
+    "name": "DockerBase",
+    "dockerComposeFile": "compose.yml",
+    "service": "python",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter",
+				"njpwerner.autodocstring",
+				"oderwat.indent-rainbow",
+				"KevinRose.vsc-python-indent",
+				"christian-kohler.path-intellisense"
+			]
+		}
+	}
+}

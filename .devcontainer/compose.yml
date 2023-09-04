@@ -1,0 +1,11 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python:3.10
+    container_name: BasePython3.10
+    hostname: DockerBase
+    volumes:
+      - ../:/workspace
+    tty: true
