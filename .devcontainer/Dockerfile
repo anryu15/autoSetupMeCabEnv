@@ -8,14 +8,26 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     nano \
+    sudo \
     libzbar-dev \
+    vim \
     && rm -rf /var/lib/apt/lists/*
 
 RUN git config --global core.autocrlf false
 
+RUN apt-get update
+
+RUN apt-get install -y --reinstall build-essential
+
 RUN pip install --upgrade pip \
     && pip install \
     jupyter \
-    Django \
-    requests
+    requests \
+    pymongo \
+    pandas \
+    mecab-python3 \
+    ipadic \
+    matplotlib \
+    japanize-matplotlib
+
 
