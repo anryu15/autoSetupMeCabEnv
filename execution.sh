@@ -1,5 +1,4 @@
 #!/bin/bash
-yes | apt-get install mecab libmecab-dev mecab-ipadic-utf8
 apt install -y --reinstall build-essential
 git clone https://github.com/neologd/mecab-ipadic-neologd.git
 
