@@ -4,8 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     image: python:3.10
-    container_name: BasePython3.10
-    hostname: DockerBase
+    container_name: AutoMecabPython3.10
+    hostname: AutoMecabDocker
     volumes:
       - ../:/workspace
     tty: true
