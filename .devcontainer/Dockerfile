@@ -30,4 +30,10 @@ RUN pip install --upgrade pip \
     matplotlib \
     japanize-matplotlib
 
+RUN apt-get update && apt-get install -y \
+    mecab \
+    libmecab-dev \
+    mecab-ipadic-utf8
+    
+
 
